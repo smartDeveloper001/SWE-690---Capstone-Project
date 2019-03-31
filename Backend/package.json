@@ -1,0 +1,37 @@
+{
+  "name": "51alp_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.15.0",
+    "chinese-conv": "^1.0.1",
+    "cors": "^2.8.4",
+    "del": "^3.0.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "install": "^0.12.2",
+    "jsonwebtoken": "^5.7.0",
+    "lokijs": "^1.5.5",
+    "mongoose": "^4.4.5",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-timestamp": "^0.6.0",
+    "morgan": "^1.7.0",
+    "multer": "^1.4.1",
+    "node-cache": "^4.2.0",
+    "node-persist": "^3.0.1",
+    "nodemailer": "^4.6.8",
+    "npm": "^6.4.1",
+    "progress-stream": "^2.0.0",
+    "redis": "^2.8.0",
+    "sequelize": "^4.41.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

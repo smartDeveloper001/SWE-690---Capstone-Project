@@ -1,0 +1,6 @@
+framework module Pods_51ALP_IOS {
+  umbrella header "Pods-51ALP_IOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

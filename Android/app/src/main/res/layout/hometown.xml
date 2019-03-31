@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/left"
+        android:layout_gravity="left"
+        android:background="@drawable/left"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <Spinner
+
+        android:layout_marginTop="50dp"
+        android:id="@+id/spinner_province"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"></Spinner>
+    <Spinner
+        android:id="@+id/spinner_city"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"></Spinner>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/home_cancel"
+            android:layout_alignParentLeft="true"
+            android:text="取消"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/home_enter"
+            android:layout_alignParentRight="true"
+            android:text="确定"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

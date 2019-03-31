@@ -1,0 +1,147 @@
+PODS:
+  - Alamofire (4.8.1)
+  - BadgeSwift (7.0.0)
+  - BMPlayer (1.2.0):
+    - BMPlayer/Full (= 1.2.0)
+  - BMPlayer/Core (1.2.0)
+  - BMPlayer/Full (1.2.0):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.5.1)
+    - SnapKit (~> 4.2.0)
+  - CenteredCollectionView (2.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Cosmos (18.0.1)
+  - DynamicBlurView (3.0.1)
+  - DynamicColor (4.0.3)
+  - Eureka (4.3.1)
+  - FaceAware (1.6.0)
+  - HGPlaceholders (0.3.0)
+  - JGProgressHUD (2.0.3)
+  - Material (2.16.4):
+    - Material/Core (= 2.16.4)
+  - Material/Core (2.16.4):
+    - Motion (~> 1.4.3)
+  - Motion (1.4.3):
+    - Motion/Core (= 1.4.3)
+  - Motion/Core (1.4.3)
+  - NVActivityIndicatorView (4.5.1):
+    - NVActivityIndicatorView/Presenter (= 4.5.1)
+  - NVActivityIndicatorView/Presenter (4.5.1)
+  - PopupDialog (0.9.2):
+    - DynamicBlurView (~> 3.0.1)
+  - PromiseKit (6.8.3):
+    - PromiseKit/CorePromise (= 6.8.3)
+    - PromiseKit/Foundation (= 6.8.3)
+    - PromiseKit/UIKit (= 6.8.3)
+  - PromiseKit/CorePromise (6.8.3)
+  - PromiseKit/Foundation (6.8.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.3):
+    - PromiseKit/CorePromise
+  - Realm (3.13.1):
+    - Realm/Headers (= 3.13.1)
+  - Realm/Headers (3.13.1)
+  - RealmSwift (3.13.1):
+    - Realm (= 3.13.1)
+  - SCLAlertView (0.8)
+  - SDWebImage (4.4.5):
+    - SDWebImage/Core (= 4.4.5)
+  - SDWebImage/Core (4.4.5)
+  - SnapKit (4.2.0)
+  - StepIndicator (1.0.6.1)
+  - SwiftMessages (6.0.2):
+    - SwiftMessages/App (= 6.0.2)
+  - SwiftMessages/App (6.0.2)
+  - SwiftValidators (8.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.0)
+  - BadgeSwift (~> 7.0)
+  - BMPlayer (~> 1.2.0)
+  - CenteredCollectionView
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - Cosmos
+  - DynamicColor (~> 4.0.3)
+  - Eureka
+  - FaceAware
+  - HGPlaceholders
+  - JGProgressHUD
+  - Material (~> 2.0)
+  - PopupDialog (~> 0.9)
+  - PromiseKit (~> 6.0)
+  - RealmSwift
+  - SCLAlertView
+  - SDWebImage (~> 4.0)
+  - SnapKit (~> 4.2.0)
+  - StepIndicator (~> 1.0.6)
+  - SwiftMessages
+  - SwiftValidators
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - BadgeSwift
+    - BMPlayer
+    - CenteredCollectionView
+    - Cosmos
+    - DynamicBlurView
+    - DynamicColor
+    - Eureka
+    - FaceAware
+    - HGPlaceholders
+    - JGProgressHUD
+    - Material
+    - Motion
+    - NVActivityIndicatorView
+    - PopupDialog
+    - PromiseKit
+    - Realm
+    - RealmSwift
+    - SCLAlertView
+    - SDWebImage
+    - SnapKit
+    - StepIndicator
+    - SwiftMessages
+    - SwiftValidators
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  BadgeSwift: 5cfacfad916d85e2f68d93dbb9ade4e9555903da
+  BMPlayer: b952a7d3a82ce8c934403e2070596e244e6c9ddd
+  CenteredCollectionView: a32f1d57505be294ff6080251384a38ffd1e61f3
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Cosmos: 7dfaa3f52584ca5f94ab74b5c2e264019cc9f7f5
+  DynamicBlurView: b1df5415f9bd31897549e5d7077e5ec120a4d636
+  DynamicColor: bf19b33fe404c59a68e64af95cc6b017346e7e75
+  Eureka: 28ea296f06710f6745266b71f17862048941a32d
+  FaceAware: 7708f7ac2e2521f101dd1462b351c5486eb0a590
+  HGPlaceholders: 2df01c51b04a30acd0b8c9c7161c7cdde4541109
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
+  Motion: 153ba49692997888556c7a95207278a8b1f8be95
+  NVActivityIndicatorView: ec34a7b88c51fab270004a1a1f32116e711010cd
+  PopupDialog: f4bb461bf70ff422be0b56656566424ee9273080
+  PromiseKit: 94c6e781838c5bf4717677d0d882b0e7250c80fc
+  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
+  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  StepIndicator: 73b4bcc8bcf816cb98479d99ada7e85463252caa
+  SwiftMessages: 8b3cc68dba2f1c91aac1a74c90b10287aac35371
+  SwiftValidators: 282173fae9e2fee864212b0128fcb25a81d53fba
+
+PODFILE CHECKSUM: 13171aa5f32a2cba770ffe67326e9fd8507d9b07
+
+COCOAPODS: 1.5.3

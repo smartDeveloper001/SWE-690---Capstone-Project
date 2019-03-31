@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/layout_one"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/layout_two"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/study_item"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:background="@drawable/shipin_kecheng" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="视频课程" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/layout_two"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/layout_three"
+        app:layout_constraintStart_toEndOf="@+id/layout_one">
+
+        <Button
+            android:id="@+id/second_item"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:background="@drawable/study_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="学习任务" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/layout_three"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/layout_four"
+        app:layout_constraintStart_toEndOf="@+id/layout_two">
+
+        <Button
+            android:id="@+id/third_item"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:background="@drawable/chuli_renwu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="我的视频" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/layout_four"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/layout_three">
+
+        <Button
+            android:id="@+id/four_item"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:background="@drawable/personal_profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="个人信息" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
